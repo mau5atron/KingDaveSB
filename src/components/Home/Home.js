@@ -7,7 +7,6 @@ export default class Home extends Component {
   render = () => {
     return(
       <View style={styles.container}>
-        <Text>{Config.title}</Text>
         <Text>{Config.ENV}</Text>
         <Text style={styles.textStyle}>da cheese</Text>
         <Text style={styles.textStyle}>OR</Text>
